@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "92903106907c720ad7631496383e27295cd0106a",
+  "channel": "edge",
+  "catalogue": "enhance-edge",
+  "pluginVersion": "1.0.0-edge.a90c55133fc7",
+  "runtimePackage": "@enhance-eng/enhance",
+  "runtimeVersion": "0.1.7",
+  "reviewableDigest": "a90c55133fc7467ae085bfcd75fe28f75c2e2617d0733115c23b6b4f14005804",
+  "packageDigest": "4ba14f3d7853159d45fbb9b19bfc1b83088b3c0a1e5b973ee08846c1c867c49c"
+}

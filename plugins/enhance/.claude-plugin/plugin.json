@@ -1,0 +1,13 @@
+{
+  "name": "enhance",
+  "version": "1.0.0-edge.a90c55133fc7",
+  "description": "Design, edit, review and publish interactive product canvases with your agent.",
+  "author": {
+    "name": "Enhance",
+    "email": "support@enhancelabs.ai"
+  },
+  "homepage": "https://app.enhancelabs.ai/docs",
+  "repository": "https://github.com/enhance-labs-builds/enhance-plugin",
+  "license": "MIT",
+  "mcpServers": "./.mcp.json"
+}

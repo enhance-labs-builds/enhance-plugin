@@ -1,0 +1,35 @@
+{
+  "name": "enhance",
+  "version": "1.0.0-edge.a90c55133fc7",
+  "description": "Design, edit, review and publish interactive product canvases with your agent.",
+  "author": {
+    "name": "Enhance",
+    "email": "support@enhancelabs.ai",
+    "url": "https://enhancelabs.ai"
+  },
+  "homepage": "https://app.enhancelabs.ai/docs",
+  "repository": "https://github.com/enhance-labs-builds/enhance-plugin",
+  "license": "MIT",
+  "keywords": ["design", "canvas", "prototype", "feedback", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Enhance",
+    "shortDescription": "Design, edit, review and publish interactive product canvases with your agent.",
+    "longDescription": "Give your agent a shared visual canvas for turning product context into editable designs, published prototypes and verified source changes.",
+    "developerName": "Enhance",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://app.enhancelabs.ai/docs",
+    "privacyPolicyURL": "https://app.enhancelabs.ai/privacy-policy",
+    "termsOfServiceURL": "https://app.enhancelabs.ai/docs/terms",
+    "defaultPrompt": [
+      "Design a product screen on my Enhance canvas.",
+      "Publish and visually verify this prototype.",
+      "Apply feedback or an approved canvas design to my prototype source."
+    ],
+    "brandColor": "#18181B",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg"
+  }
+}
