@@ -1,0 +1,19 @@
+{
+  "name": "enhance",
+  "owner": {
+    "name": "Enhance",
+    "email": "support@enhancelabs.ai"
+  },
+  "metadata": {
+    "version": "1.0.2",
+    "description": "Design, edit, review and publish interactive product canvases with your agent."
+  },
+  "plugins": [
+    {
+      "name": "enhance",
+      "source": "plugins/enhance",
+      "description": "Design, edit, review and publish interactive product canvases with your agent.",
+      "version": "1.0.2"
+    }
+  ]
+}

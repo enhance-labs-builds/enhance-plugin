@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "enhance": {
+      "command": "sh",
+      "args": [
+        "-l",
+        "-c",
+        "exec node \"$1\"",
+        "enhance-mcp",
+        "${CLAUDE_PLUGIN_ROOT}/dist/mcp-main.mjs"
+      ]
+    }
+  }
+}

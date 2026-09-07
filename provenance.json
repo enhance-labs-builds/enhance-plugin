@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "cdc919154ed8e95694eedbf5fadb9a0722c50a0d",
+  "channel": "stable",
+  "catalogue": "enhance",
+  "pluginVersion": "1.0.2",
+  "runtimePackage": "@enhance-eng/enhance",
+  "runtimeVersion": "0.1.7",
+  "runtimeDigest": "aec61ce3c5e0949132663ae370a2610c51e6fedea663d4b4f65e3ac47f6b9a31",
+  "reviewableDigest": "51b804431d39179eeb6847b2f3dea41ae337801c33dd8728cfbebc0ec5d360ab",
+  "packageDigest": "738702a922c40324309bd574163142c4866c83854121c70e71c938196c29ed4b"
+}
