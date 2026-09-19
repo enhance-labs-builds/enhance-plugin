@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "09805341372a3e536807cb244ad0aa975eeca1de",
+  "sourceCommit": "342a11e485fa8eeabaa0f9177948d94282643726",
   "channel": "stable",
   "catalogue": "enhance",
-  "pluginVersion": "1.0.10",
+  "pluginVersion": "1.0.11",
   "runtimePackage": "@enhance-eng/enhance",
-  "runtimeVersion": "0.1.15",
-  "runtimeDigest": "75ced2f63266940b331dad180bf16d5f402762cc209e1056c9e18732e1b99874",
-  "reviewableDigest": "86876c2c650a269d19ad0de02196e47968c65b3af2aa32aa4d61623fa140ddf2",
-  "packageDigest": "fe2fd927263ff5d7568e033898af2c231f6058dc6e243346961f0c249f13e9df"
+  "runtimeVersion": "0.1.16",
+  "runtimeDigest": "6a3b609496adb3d3650f9c1e98a70dfbf3cbcc4fdc53bc13173f70952f651e00",
+  "reviewableDigest": "9575f70c402a264eb7f959140607d8e15a5088baff20479ed4463a528b72f5d3",
+  "packageDigest": "2872af5cd95df66abd4505b123290c0b25f8aae4e9ba07a51984a8eb7717748c"
 }
