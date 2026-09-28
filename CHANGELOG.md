@@ -1,8 +1,8 @@
 # Changelog
 
-## 1.0.12
+## 1.0.15
 
-- Add direct canvas authoring, atomic edit batches and exact-version rendering to local MCP.
-- Return committed writes immediately and preserve their receipts when visual review fails.
-- Update the four shared skills to reuse known state and avoid unnecessary discovery and rendering.
-- Pin the local MCP runtime to @enhance-eng/enhance@0.1.17.
+- Preserve typography units, rich text and reusable style ownership in canvas authoring.
+- Expose text style library discovery and publication with complete command guidance.
+- Keep browser font upload and transfer lifecycle operations inside authoring transactions.
+- Pin the local MCP runtime to @enhance-eng/enhance@0.1.20.
