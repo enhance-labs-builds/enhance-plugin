@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "enhance",
-  "version": "1.0.17",
+  "version": "1.0.20",
   "description": "Design, edit, review and publish interactive product canvases with your agent.",
   "author": {
     "name": "Enhance",
@@ -13,6 +13,27 @@
   "license": "MIT",
   "keywords": ["design", "canvas", "prototype", "feedback", "mcp"],
   "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Enhance",
+        "shortDescription": "Design, edit, review and publish interactive product canvases with your agent.",
+        "longDescription": "Give your agent a shared visual canvas for turning product context into editable designs, published prototypes and verified source changes.",
+        "developerName": "Enhance",
+        "category": "Developer Tools",
+        "capabilities": ["Interactive", "Read", "Write"],
+        "websiteURL": "https://app.enhancelabs.ai/docs",
+        "privacyPolicyURL": "https://app.enhancelabs.ai/privacy-policy",
+        "termsOfServiceURL": "https://app.enhancelabs.ai/docs/terms",
+        "defaultPrompt": [
+          "Design a product screen on my Enhance canvas.",
+          "Publish and visually verify this prototype.",
+          "Apply feedback or an approved canvas design to my prototype source."
+        ],
+        "brandColor": "#18181B",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/logo.svg"
+      }
+    },
     "ai.enhance.presentation": {
       "displayName": "Enhance",
       "shortDescription": "Design, edit, review and publish interactive product canvases with your agent.",

@@ -5,13 +5,14 @@ description: Act on clear Enhance canvas and prototype feedback, implement the u
 
 # Respond to feedback
 
-Use the installed interface: MCP tool contracts or CLI command help. A complete contract returned by search is ready to invoke; describe only when the contract is missing. No second interface is required. For canvas changes use `canvas_edit` / `canvas edit --edits`, preserve selection links, and reuse versions returned by successful writes. Render after a meaningful visual change.
+Use the installed canvas and feedback MCP contracts. Use the calling host's source/browser tools where needed; MCP work does not require installing a CLI. If the person chooses the CLI, its command help describes that interface.
 
-1. Read the canvas, unresolved attention comments, related selections, and current prototype state. Preserve comment wording and authorship.
-2. Separate clear actions from ambiguous, conflicting, stale, or already-satisfied feedback. Ask the person only where the intended result cannot safely be inferred.
-3. For each clear action, locate the actual owner: editable canvas content, prototype source, or both. Make the smallest complete change in the existing design and code conventions.
-4. If source changed, republish the caller-selected build. If canvas content changed, render the affected screen.
-5. Compare structure and pixels against the feedback. Exercise the changed interaction, inspect for clipping and regressions, and iterate until it is right.
-6. Resolve only comments whose requested outcome is implemented and verified. Leave every ambiguous or incomplete item open and report it precisely.
+Preserve the complete canvas, page or selection link. Use `feedback_read` to read unresolved threads in that scope, then read the needed message and anchor details. Follow every required continuation: a summary, truncated body or incomplete anchor is not the full feedback. Preserve wording, authorship and observed thread revisions. Read the referenced canvas objects and relevant source/prototype state rather than treating canvas proximity as an anchor.
 
-Never mark feedback complete merely because a mutation succeeded. Follow MCP remediation and never expose credentials, signed URLs, local paths, or private content.
+Separate clear actions from ambiguous, conflicting, stale or already-satisfied feedback. Resolve intent from available evidence; ask only where the intended result remains material and uncertain. Locate the actual owner: editable canvas content, prototype source or both.
+
+For canvas edits, read a complete editable root and use `canvas_update_html`, preserving identity and opaque content; use the structural tools when appropriate. For source edits, change the owning implementation and publish the selected build with `prototype_publish`. Retry uncertain writes with identical arguments and intent tokens. Follow returned operation continuations; a prepared plan or ready deployment alone does not prove the requested canvas change happened.
+
+Render changed canvas content at its committed revision and inspect the pixels. Exercise changed prototype behavior through the host's browser. Check the outcome against the actual feedback, including clipping, missing assets and unrelated regressions.
+
+Reply with concise completion evidence through `feedback_reply` when responding to the thread is part of the request. Resolve through `feedback_set_resolved` only after the requested outcome is implemented and verified. Use the observed thread revision: a new reply or moved anchor requires reading again before deciding whether resolution is still appropriate. Keep ambiguous, incomplete or unverified items open and report their specific remaining work.

@@ -2,6 +2,9 @@
   "mcpServers": {
     "enhance": {
       "command": "sh",
+      "env": {
+        "ENHANCE_MCP_PROFILE": "canvas"
+      },
       "args": ["-l", "-c", "exec node \"$1\"", "enhance-mcp", "./dist/mcp-main.mjs"],
       "cwd": "."
     }

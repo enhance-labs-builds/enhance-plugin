@@ -1,8 +1,8 @@
 # Changelog
 
-## 1.0.17
+## 1.0.20
 
-- Preserve typography units, rich text and reusable style ownership in canvas authoring.
-- Expose text style library discovery and publication with complete command guidance.
-- Keep browser font upload and transfer lifecycle operations inside authoring transactions.
-- Pin the local MCP runtime to @enhance-eng/enhance@0.1.22.
+- Use the focused canvas MCP profile for discovery, scoped reads, HTML edits, rendering and feedback.
+- Bundle four canvas workflows with conflict recovery and visual verification.
+- Keep local filesystem publication in local integrations and OAuth in the hosted integration.
+- Pin the local MCP runtime to @enhance-eng/enhance@0.1.25.

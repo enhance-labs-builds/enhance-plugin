@@ -1,17 +1,18 @@
 ---
 name: publish-prototype
-description: Publish a local product build to an Enhance canvas and visually verify the complete prototype. Use when a user asks to publish, attach, refresh, preview, or validate a prototype from a build folder.
+description: Publish a selected product build to an Enhance canvas and visually verify its prototype. Use for publishing, attaching, refreshing or validating a local build folder or an authorized uploaded build artifact.
 ---
 
 # Publish a prototype
 
-Use the installed interface: MCP tool contracts or CLI command help. A complete contract returned by search is ready to invoke; describe only when the contract is missing. No second interface is required. For canvas changes use `canvas_edit` / `canvas edit --edits`, preserve selection links, and reuse versions returned by successful writes. Render after a meaningful visual change.
+Use the installed `prototype_publish` contract. Local and hosted input acquisition differ; the native publication and canvas attachment lifecycle is the same. MCP work does not require a separate CLI. When the person chooses the CLI, use its command help.
 
-1. Read the target canvas and current prototype state before changing anything.
-2. Ask for the intended local build directory if the person has not selected one. Never guess a directory or publish an unrelated working tree.
-3. Preflight the complete folder, then publish and attach it to the intended canvas. Reuse a mutation token only when retrying the identical input after an ambiguous outcome.
-4. Open the published prototype through Enhance, exercise every specified state and interaction, and render representative desktop and mobile states.
-5. Inspect the rendered pixels for clipping, overflow, missing assets, broken routes, console failures, and visual drift. A successful upload is not completion.
-6. Correct actionable failures, republish, and repeat the inspection. Report the public result and any explicit unresolved limitation.
+Preserve the complete target canvas or page link and read its current outline and prototype state. Reuse the observed revision and the intended existing prototype when refreshing it. Do not silently create a second prototype to avoid an attachment conflict.
 
-Follow remediation returned by MCP. Keep credentials, signed URLs, local paths, and customer content out of the response.
+Acquire exactly the build the person selected. A local runtime accepts a build directory that the calling host can access. A hosted runtime accepts an authorized file reference when its listed contract provides that capability; use the host's supported artifact selection or upload flow. A local path is not a hosted artifact. If the input has not been selected, ask for it. If transfer is unavailable, explain the missing capability without pretending a server can read the person's computer.
+
+Publish with a fresh intent token. Retry an uncertain result with identical arguments and the same token. Follow `operation_status` and the returned continuation for pending ingestion or attachment. Deployment readiness and canvas attachment are distinct: recover an attachment conflict against the current canvas using the ready deployment, rather than uploading the build again. Report the actual outcome if either stage remains incomplete.
+
+Open the published prototype through Enhance, exercise the requested routes, states and interactions using the calling host's browser capabilities, and inspect representative viewport pixels. Check missing assets, navigation, console failures, overflow and visual drift. A ready deployment is not proof that interactions were exercised. Fix defects in the owning source, build again and republish when that work is within the request; otherwise describe the specific remaining defect.
+
+Finish with the authorized prototype/canvas link and what was verified. Do not include credentials or temporary signed transfer URLs.
