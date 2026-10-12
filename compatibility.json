@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "pluginVersion": "1.0.20",
+  "pluginVersion": "1.0.28",
   "node": {
     "minimum": "24"
   },
