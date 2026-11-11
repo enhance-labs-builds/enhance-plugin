@@ -3,7 +3,7 @@
   "name": "io.github.enhance-labs-builds/enhance",
   "title": "Enhance",
   "description": "Design, edit, review and publish interactive product canvases with your agent.",
-  "version": "1.0.160",
+  "version": "1.0.161",
   "websiteUrl": "https://enhancelabs.ai",
   "repository": {
     "url": "https://github.com/enhance-labs-builds/enhance-plugin",
@@ -12,8 +12,8 @@
   "packages": [
     {
       "registryType": "mcpb",
-      "identifier": "https://github.com/enhance-labs-builds/enhance-plugin/releases/download/plugin-v1.0.160/enhance.mcpb",
-      "fileSha256": "bd7735e9561b1ef628a5e7a8cd4e2431d2be262734deee36b3faac4a7de0b97c",
+      "identifier": "https://github.com/enhance-labs-builds/enhance-plugin/releases/download/plugin-v1.0.161/enhance.mcpb",
+      "fileSha256": "d3bb96d520f78e8422af87498c8a90757b343114b3d12da3cdad8afa40c99b1f",
       "transport": {
         "type": "stdio"
       }
