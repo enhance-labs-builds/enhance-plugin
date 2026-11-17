@@ -1,10 +1,7 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "pluginVersion": "1.0.161",
-  "node": {
-    "minimum": "24"
-  },
+  "pluginVersion": "1.0.165",
   "hosts": {
     "claude-code": {
       "minimum": "2.1.143",
